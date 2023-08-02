@@ -1,5 +1,6 @@
 ## Dönen sonuç
 
+```json
 {
   id: 1,
   name: 'Leanne Graham',
@@ -31,3 +32,4 @@
     }
   ]
 }
+```
