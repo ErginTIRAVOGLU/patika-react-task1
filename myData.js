@@ -5,7 +5,7 @@ const myData = async (userId) => {
     `https://jsonplaceholder.typicode.com/users/${userId}`
   );
   const { data: posts } = await axios(
-    `https://jsonplaceholder.typicode.com/posts?id=${userId}`
+    `https://jsonplaceholder.typicode.com/posts?userId=${userId}`
   );
   const rPosts = { posts: posts };
   const total = { ...user, ...rPosts };
